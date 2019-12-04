@@ -18,10 +18,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <div class="collapse navbar-collapse" id="main-navbar">
+<ul class="nav navbar-nav navbar-left">
+  <li><a href="${content.rootpath!}index.html">Home</a></li>
+</ul>
 <ul class="nav navbar-nav navbar-right">
-  <li><a href="${content.rootpath!}archive.html">Archive</a></li>
-  <li><a href="${content.rootpath!}tags.html">Tags</a></li>
-  <li><a href="${content.rootpath!}about.html">About</a></li>
+  <li><a href="${content.rootpath!}archive.html">Projekte</a></li>
+  <li><a href="${content.rootpath!}tags.html">Themen</a></li> 
+  <li><a href="${content.rootpath!}about.html">Lebenslauf</a></li>
+  <!--
   <li class="navlinks-container">
     <a class="navlinks-parent" href="javascript:void(0)">Others</a>
     <div class="navlinks-children">
@@ -29,6 +33,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="${content.rootpath!}jbake2.5.1doc">JBake<br/>日本語訳</a>
     </div>
   </li>
+  -->
 </ul>
 </div>
 

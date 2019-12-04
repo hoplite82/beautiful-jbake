@@ -1,0 +1,65 @@
+= Architecture documentation
+Daniel Kocot
+2018-10-18
+:jbake-type: post
+:jbake-tags: documentation, manual
+:jbake-status: published
+
+== First draft
+
+[plantuml, "first_draft", "png"]
+----
+node "Confluence as content repository" as nodeconf
+folder Intranet{
+    together {
+        node "WordPress Node 1" as nodeiwp1
+        node "WordPress Node 2" as nodeiwp2
+        node "WordPress Node 3" as nodeiwp3
+        node "WordPress Node 4" as nodeiwp4
+    }
+}
+folder Extranet{
+    together {
+        node "WordPress Node 1" as nodeewp1
+        node "WordPress Node 2" as nodeewp2
+        node "WordPress Node 3" as nodeewp3
+        node "WordPress Node 4" as nodeewp4
+    }
+}
+node "LoadBalancer / nginx Intranet" as lbinginx
+node "LoadBalancer / nginx Extranet" as lbenginx
+node "Content Delivery Network" as cdn
+cloud "Intranet" as intranet
+cloud "Extra/Internet" as internet
+actor "Internal User" as internal
+actor "External User" as external
+nodeconf --> nodeiwp1
+nodeconf --> nodeiwp2
+nodeconf --> nodeiwp3
+nodeconf --> nodeiwp4
+nodeconf --> nodeewp1
+nodeconf --> nodeewp2
+nodeconf --> nodeewp3
+nodeconf --> nodeewp4
+nodeewp1 <--> lbenginx
+nodeewp2 <--> lbenginx
+nodeewp3 <--> lbenginx
+nodeewp4 <--> lbenginx
+nodeiwp1 <--> lbinginx
+nodeiwp2 <--> lbinginx
+nodeiwp3 <--> lbinginx
+nodeiwp4 <--> lbinginx
+cdn <--> nodeconf
+cdn --> nodeewp1
+cdn --> nodeewp2
+cdn --> nodeewp3
+cdn --> nodeewp4
+cdn --> nodeiwp1
+cdn --> nodeiwp2
+cdn --> nodeiwp3
+cdn --> nodeiwp4
+lbinginx <--> intranet
+lbenginx <--> internet
+external <--> internet
+internal <--> intranet
+----

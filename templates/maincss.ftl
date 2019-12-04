@@ -1,10 +1,10 @@
 @import url("pygment_highlights.css");
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
+  font-family: 'Ubuntu Mono','Lora', 'Times New Roman', serif;
+  font-size: 16px;
   color: #404040;
   position: relative;
   background-color: #${config.page_col};
@@ -18,7 +18,7 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu Mono','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
@@ -99,7 +99,7 @@ img {
 .navbar-custom {
   background-color: ${config.navbar_col};
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   <#if (config.navbar_img)?has_content>
   background-image: url(${content.rootpath!}${config.navbar_img});
   background-attachment: fixed;
@@ -300,7 +300,7 @@ footer .theme-by {
 /* --- Post preview --- */
 
 .post-preview {
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -326,7 +326,7 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
@@ -342,7 +342,7 @@ footer .theme-by {
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu Mono','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .post-entry-container {
   display: inline-block;
@@ -373,7 +373,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
 
@@ -462,11 +462,11 @@ footer .theme-by {
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 20px;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 35px;
+  font-size: 30px;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
@@ -515,10 +515,10 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 30px;
   }
   .intro-header .post-heading h1 {
-    font-size: 50px;
+    font-size: 36px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;

@@ -19,22 +19,20 @@
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 <div class="posts-list">
-<#list published_posts as post>
-<article class="post-preview">
-<h2 class="post-title"><a href="${content.rootpath!}${post.uri}"><#escape x as x?xml>${post.title}</#escape></a></h2>
-<#if (post.subtitle)?has_content>
-  <h3 class="post-subtitle"><a href="${content.rootpath!}${post.uri}"><#escape x as x?xml>${post.subtitle}</#escape></a></h3>
-</#if>
 
-<p class="post-meta">
-  <i class="fa fa-calendar-o"></i>
-  ${post.date?string(config.date_format)}
-  <#if (post.author)?has_content>
-    &nbsp;
-    <i class="fa fa-pencil"></i>
-    ${post.author}
-  </#if>
-  <#if (post.tags)?has_content>
+<#list published_posts as post>
+
+<article class="post-preview">
+  <h2 class="post-title"><a href="${content.rootpath!}${post.uri}"><#escape x as x?xml>${post.title}</#escape></a></h2>
+  <p class="post-meta">
+    <i class="fa fa-calendar-o"></i>
+      ${post.date?string(config.date_format)}
+      <#if (post.author)?has_content>
+        &nbsp;
+      <i class="fa fa-pencil"></i>
+        ${post.author}
+      </#if>
+      <#if (post.tags)?has_content>
   <span class="blog-tags">
     &nbsp;
     <i class="fa fa-tags"></i>
