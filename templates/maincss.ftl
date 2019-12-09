@@ -525,6 +525,10 @@ footer .theme-by {
   }
 }
 
+h2 {
+  font-size: 24px;
+}
+
 .header-section.has-img .no-img {
   margin-top: 0;
   background-color: #FCFCFC;
