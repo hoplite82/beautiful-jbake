@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<feed xmlns='http://www.w3.org/2005/Atom' xml:lang='de'>
+  <id>http://localhost:8820</id>
+  <title></title>
+  <updated>2020-06-08T04:06:00+0200</updated>
+  <link rel="alternate" type="text/html" href="http://localhost:8820" />
+  <link rel='self' type='application/atom+xml' href='http://localhost:8820/feed.xml' />
+  <entry>
+    <id>http://localhost:8820/blog/LochinderErde.html</id>
+    <title>Naomi Klein: Loch in der Erde</title>
+    <link></link>
+    <link rel="alternate" type="text/html" href="http://localhost:8820/blog/LochinderErde.html" />
+    <updated>2021-07-03T00:00:00+0200</updated>
+    <summary>Zusammenfassung
+
+Am 20 April 2010 explodierte, die von BP betriebene Ölplattform, Deepwater Horizon.
+Nach vielen misslungenen Versuchen gelang es erst nach 3 Monaten die Quelle zu verschließen.
+Es traten 4 Millionen Barrel (640 Millionen Liter) aus.
+BP und die Umweltbehörde versprachen, alles wieder sauber zu machen und Entschädigungen zu zahlen. Die Einwohner misstrauten den Versprechungen, insbes...</summary>
+  </entry>
+  <entry>
+    <id>http://localhost:8820/blog/marktrepair.html</id>
+    <title>Marktwirtschaft reparieren oder Kapitalismus überwinden?</title>
+    <link></link>
+    <link rel="alternate" type="text/html" href="http://localhost:8820/blog/marktrepair.html" />
+    <updated>2019-12-04T00:00:00+0100</updated>
+    <summary>
+
+
+Oliver Richter beleuchtete aktuelle Probleme des existierenden Wirtschaftssystems in einem 45 Minuten langen Vortrag. Er stellte sich im Anschluss ausgiebig Fragen zu seiner Analyse und seinen Reformvorschlägen. Da eine ausgiebige Analyse des Ursachenkomplexes in einem 45-Minuten Vortrag nicht hinreichend behandelt werden kann, beschränkte sich Oliver Richter oftmals auf die Benennung von Proble...</summary>
+  </entry>
+  <entry>
+    <id>http://localhost:8820/blog/archi.html</id>
+    <title>Architecture documentation</title>
+    <link></link>
+    <link rel="alternate" type="text/html" href="http://localhost:8820/blog/archi.html" />
+    <updated>2018-10-18T00:00:00+0200</updated>
+    <summary>
+First draft
+
+
+
+node &quot;Confluence as content repository&quot; as nodeconf
+folder Intranet{
+    together {
+        node &quot;WordPress Node 1&quot; as nodeiwp1
+        node &quot;WordPress Node 2&quot; as nodeiwp2
+        node &quot;WordPress Node 3&quot; as nodeiwp3
+        node &quot;WordPress Node 4&quot; as nodeiwp4
+    }
+}
+folder Extranet{
+    together {
+        node &quot;WordPress Node 1&quot; as nodeewp1
+        node &quot;WordPress Node 2&quot; as nodeew...</summary>
+  </entry>
+  <entry>
+    <id>http://localhost:8820/blog/second-post.html</id>
+    <title>The Markdown Post</title>
+    <link></link>
+    <link rel="alternate" type="text/html" href="http://localhost:8820/blog/second-post.html" />
+    <updated>2018-01-21T00:00:00+0100</updated>
+    <summary>Ich hoffte hier den Quellcode hervorheben zu können.
+
+http://example.org
+Example.org
+
+Hey bake it now.
+import java.util.*;
+class Test{
+    Test(){
+       System.out.println(&amp;quot;Something&amp;quot;);
+    }
+}
+
+</summary>
+  </entry>
+  <entry>
+    <id>http://localhost:8820/blog/fourth-post.html</id>
+    <title>Fourth Post</title>
+    <link></link>
+    <link rel="alternate" type="text/html" href="http://localhost:8820/blog/fourth-post.html" />
+    <updated>2013-10-17T00:00:00+0200</updated>
+    <summary>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.
+
+
+
+
+http://example.org
+
+
+Example.org
+
+
+
+
+Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu,
+mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo
+ligula. Vestibulum tristique odio ut risus ultric...</summary>
+  </entry>
+  <entry>
+    <id>http://localhost:8820/blog/third-post.html</id>
+    <title>Third Post</title>
+    <link></link>
+    <link rel="alternate" type="text/html" href="http://localhost:8820/blog/third-post.html" />
+    <updated>2013-09-26T00:00:00+0200</updated>
+    <summary>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.
+
+
+
+
+http://example.org
+
+
+Example.org
+
+
+
+
+Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu,
+mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo
+ligula. Vestibulum tristique odio ut risus ultric...</summary>
+  </entry>
+  <entry>
+    <id>http://localhost:8820/blog/first-post.html</id>
+    <title>First Post</title>
+    <link></link>
+    <link rel="alternate" type="text/html" href="http://localhost:8820/blog/first-post.html" />
+    <updated>2013-07-24T00:00:00+0200</updated>
+    <summary>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.
+
+
+http://example.org
+Example.org
+
+
+Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu, 
+mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo 
+ligula. Vestibulum tristique odio ut risus ultricies ...</summary>
+  </entry>
+</feed>
