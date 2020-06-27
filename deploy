@@ -1,0 +1,6 @@
+#!/bin/bash
+# RemoteHost="test"
+# if [ -z "${RemoteHost}" ]; then
+#       echo "RemoteHost is unset"
+# fi
+rsync --info=progress2 --delete -r ./output/ hoplite@pratersch.de:/var/www/html
